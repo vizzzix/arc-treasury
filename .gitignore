@@ -1,0 +1,168 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.ponder/
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+
+# Hardhat
+cache
+artifacts
+
+# Whitelist data
+/data/whitelist.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Private keys and sensitive data
+private.txt
+proxy.txt
+*.key
+*.pem
+deployed-addresses*.json
+
+# Bot state files (contain runtime data)
+contracts/bot_state.json
+contracts/apy_history.json
+*-state.json
+*.state.json
+
+# Email/contact lists
+tmp_emails.json
+*emails*.json
+*contacts*.json
+*angels*.json
+*influencers*.json
+enriched-*.json
+
+# Claude Code settings
+.claude/
+
+# Windows reserved names
+nul
+
+# Tests (keep contract tests in repo)
+# test/  # disabled - we need contract tests
+# *.test.ts
+# *.test.js
+.mocharc.json
+
+# Documentation (optional)
+*_DESIGN.md
+*_CHECKLIST.md
+*_REPORT.md
+CLAUDE.md
+*PLAN*.md
+
+# Sensitive configs
+supabase.json
+firebase.json
+*.secret.*
+
+# Playwright test artifacts
+playwright-report/
+test-results/
+
+# MetaMask extension for E2E tests
+metamask-extension/
+
+# Build artifacts & cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+.vercel/
+.netlify/
+out/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+.tmp/
+temp/
+
+# Package managers
+.pnpm-store/
+.yarn/
+.npm/
+package-lock.json.bak
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Debug & profiling
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
+
+# Misc
+.eslintcache
+.stylelintcache
+*.pid
+*.seed
+*.pid.lock
+
+# Lockfiles (keep package-lock.json for Vercel stability)
+yarn.lock
+pnpm-lock.yaml
+# package-lock.json  # needed for Vercel builds
+
+# Source maps
+*.map
+
+# Scripts with sensitive data (API keys, emails, contacts)
+scripts/
+
+# Private investor documents
+docs/investor-*
+docs/pitch-deck-dcvc-*
+docs/pitch-deck-hivemind-*
+docs/pitch-deck.md
+docs/pitch-deck.pdf
+docs/pitch-deck-slides.md
+docs/PitchWeb.pdf
+docs/*.pptx
+public/docs/pitch-deck-dcvc-*
+public/docs/pitch-deck-hivemind-*
